@@ -1,0 +1,43 @@
+﻿@model AgentieTurism.Models.Client
+
+@{
+    ViewBag.Title = "Înregistrare Client";
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-center align-items-center mb-4">
+        <h2>@ViewBag.Title</h2>
+    </div>
+
+    <form method="post" asp-action="Register" class="p-4 border rounded shadow-sm bg-light" style="max-width: 600px; margin: auto;">
+        <div class="mb-3">
+            <label class="form-label">Nume</label>
+            <input asp-for="Nume" class="form-control" required />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Prenume</label>
+            <input asp-for="Prenume" class="form-control" required />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Număr de telefon</label>
+            <input asp-for="NrTelefon" class="form-control" required />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input asp-for="Email" type="email" class="form-control" required />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Parolă</label>
+            <input asp-for="Parola" type="password" class="form-control" required />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Confirmare parolă</label>
+            <input name="ConfirmareParola" type="password" class="form-control" required />
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-success px-4">ÎNREGISTRARE</button>
+        </div>
+    </form>
+</div>
+
+   

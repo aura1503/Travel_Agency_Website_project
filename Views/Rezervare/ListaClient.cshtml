@@ -1,0 +1,36 @@
+﻿@model IEnumerable<AgentieTurism.Models.Rezervare>
+
+@{
+    ViewBag.Title = "Rezervările Mele";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4 text-center">Rezervările mele</h2>
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info text-center">Nu ai rezervări efectuate.</div>
+    }
+    else
+    {
+        <div class="list-group">
+            @foreach (var rezervare in Model)
+            {
+                <div class="list-group-item">
+                    <h5 class="mb-1">@rezervare.Oferta?.Hotel?.NumeHotel</h5>
+                    <p class="mb-1">@rezervare.Oferta?.Descriere</p>
+                    <small>
+                        <strong>Perioadă ofertă:</strong> @rezervare.Oferta?.DataStart.ToShortDateString()
+                        - @rezervare.Oferta?.DataFinal.ToShortDateString()<br />
+                        <strong>Data rezervării:</strong> @rezervare.DataRezervare.ToShortDateString()
+                    </small>
+
+                    <form method="post" asp-action="Sterge" asp-controller="Rezervare" class="mt-2">
+                        <input type="hidden" name="id" value="@rezervare.IdRezervare" />
+                        <button type="submit" class="btn btn-sm btn-danger">Șterge</button>
+                    </form>
+                </div>
+            }
+        </div>
+    }
+</div>

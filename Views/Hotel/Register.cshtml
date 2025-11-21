@@ -1,0 +1,52 @@
+﻿@model AgentieTurism.Models.Hotel
+
+@{
+    ViewBag.Title = "Înregistrare Hotel";
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-center align-items-center mb-4">
+        <h2>@ViewBag.Title</h2>
+    </div>
+
+    <form method="post" asp-action="Register" enctype="multipart/form-data" class="p-4 border rounded shadow-sm bg-light" style="max-width: 700px; margin: auto;">
+        
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="mb-3">
+            <label class="form-label">Nume administrator</label>
+            <input asp-for="NumeAdmin" class="form-control" required />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Nume hotel</label>
+            <input asp-for="NumeHotel" class="form-control" required />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">CUI</label>
+            <input asp-for="IdHotel" type="number" class="form-control" required />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Capacitate</label>
+            <input asp-for="Capacitate" type="number" class="form-control" required />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Oraș</label>
+            <input asp-for="Oras" class="form-control" required />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Adresă</label>
+            <input asp-for="Adresa" class="form-control" required />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Număr de telefon</label>
+            <input asp-for="NrTelefon" class="form-control" required />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Parolă</label>
+            <input asp-for="Parola" type="password" class="form-control" required />
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-success">ÎNREGISTRARE</button>
+        </div>
+    </form>
+</div>

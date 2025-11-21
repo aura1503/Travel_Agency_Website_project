@@ -1,0 +1,17 @@
+﻿@model AgentieTurism.Models.Rezervare
+
+@{
+    ViewData["Title"] = "Confirmi rezervarea?";
+}
+
+<div class="container d-flex justify-content-center align-items-center" style="min-height: 70vh;">
+    <div class="text-center">
+        <h2>@ViewData["Title"]</h2>
+
+        <form asp-action="Create" method="post">
+            <input type="hidden" asp-for="IdOferta" />
+            <button type="submit" class="btn btn-success mx-2">DA</button>
+            <a asp-action="ClientHome" asp-controller="Home" class="btn btn-secondary mx-2">NU</a>
+        </form>
+    </div>
+</div>

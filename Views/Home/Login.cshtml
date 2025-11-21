@@ -1,0 +1,40 @@
+﻿@* @page *@
+@* @model AgentieTurism.Views.LoginModel *@
+@* @{ *@
+@* } *@
+
+@{
+    ViewBag.Title = "Login";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4">Autentificare</h2>
+    <form method="post" class="row g-3">
+        <div class="col-12">
+            <label class="form-label">Tip utilizator:</label><br />
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="tipUtilizator" value="client" checked>
+                <label class="form-check-label">Client</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="tipUtilizator" value="hotel">
+                <label class="form-check-label">Hotel</label>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <label class="form-label">Email (client) sau CUI (hotel)</label>
+            <input type="text" name="identificator" class="form-control" required />
+        </div>
+        <div class="col-md-6">
+            <label class="form-label">Parolă</label>
+            <input type="password" name="parola" class="form-control" required />
+        </div>
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary">Autentifică-te</button>
+        </div>
+        @if (ViewBag.Eroare != null)
+        {
+            <div class="alert alert-danger mt-3">@ViewBag.Eroare</div>
+        }
+    </form>
+</div>

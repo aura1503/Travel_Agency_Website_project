@@ -1,0 +1,68 @@
+﻿@model IEnumerable<AgentieTurism.Models.Oferta>
+
+@{
+    ViewBag.Title = "Oferte disponibile";
+}
+
+<div class="container mt-4"> 
+     <div class="d-flex justify-content-between align-items-center mb-4"> 
+        <h2 class="mb-0">Bine ai venit! Iată ofertele de cazare disponibile:</h2> 
+         <div> 
+             <a href="/Rezervare/ListaClient" class="btn btn-outline-success btn-sm">Rezervările mele</a> 
+         </div> 
+     </div> 
+
+    <form method="get" class="row justify-content-center mb-4">
+        <div class="col-md-2">
+            <input name="oras" class="form-control" placeholder="Oraș" />
+        </div>
+        <div class="col-md-2">
+            <input name="capacitate" type="number" class="form-control" placeholder="Capacitate minimă" />
+        </div>
+        <div class="col-md-2">
+            <input name="adresa" class="form-control" placeholder="Adresă" />
+        </div>
+        <div class="col-md-2">
+            <input name="dataStart" type="date" class="form-control" />
+        </div>
+        <div class="col-md-2">
+            <input name="dataFinal" type="date" class="form-control" />
+        </div>
+        <div class="col-md-2">
+            <button type="submit" class="btn btn-primary w-100">Filtrează</button>
+        </div>
+    </form>
+
+    @if (Model != null && Model.Any())
+    {
+        <div class="list-group">
+            @foreach (var oferta in Model)
+            {
+                <div class="list-group-item d-flex align-items-center">
+                    @{
+                        var imaginePath = string.IsNullOrEmpty(oferta.NumeImagine)
+                        ? "/imagini/hotel_default.jpg"
+                        : $"/imagini/{oferta.NumeImagine}";
+                    }
+                    <img src="@imaginePath"
+                         style="width: 100px; height: 100px; object-fit: cover; margin-right: 20px;"
+                         alt="poza hotel" />
+                    <div class="flex-grow-1">
+                        <h5 class="mb-1">@oferta.Hotel.NumeHotel</h5>
+                        <p class="mb-1">@oferta.Descriere.Substring(0, Math.Min(80, oferta.Descriere.Length))...</p>
+                        <small><strong>Perioadă:</strong> @oferta.DataStart.ToShortDateString() - @oferta.DataFinal.ToShortDateString()</small><br />
+                        <small><strong>Preț:</strong> @oferta.Pret lei</small>
+                    </div>
+                    <div>
+                        <a href="/Oferta/Detalii/@oferta.IdOferta" class="btn btn-outline-primary">Detalii</a>
+                    </div>
+                </div>
+            }
+
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-info text-center">Nu există oferte care să corespundă filtrării.</div>
+    }
+</div>

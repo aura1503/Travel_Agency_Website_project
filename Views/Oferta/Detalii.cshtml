@@ -1,0 +1,67 @@
+﻿@model AgentieTurism.Models.Oferta
+
+@{
+    ViewBag.Title = "Detalii ofertă";
+    var rol = Context.Session.GetString("Rol");
+}
+
+<div class="container mt-5">
+    <div class="text-center mb-4">
+        <h2>@Model.Hotel.NumeHotel</h2>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-md-6 text-center">
+            <img src="~/imagini/@(string.IsNullOrEmpty(Model.NumeImagine) ? "hotel_default.jpg" : Model.NumeImagine)"
+                 class="img-fluid rounded mb-3"
+                 alt="Poză hotel"
+                 style="max-height: 300px; object-fit: cover;" />
+        </div>
+    </div>
+
+
+    <div class="text-center">
+        <p class="lead">@Model.Descriere</p>
+        <p><strong>Perioadă:</strong> @Model.DataStart.ToShortDateString() - @Model.DataFinal.ToShortDateString()</p>
+        <p><strong>Telefon:</strong> @Model.Hotel.NrTelefon</p>
+        <p><strong>Preț:</strong> @Model.Pret lei</p>
+    </div>
+
+
+    <div class="text-center mt-4">
+        @if (rol == "client")
+        {
+            <a asp-controller="Rezervare"
+               asp-action="Create"
+               asp-route-idOferta="@Model.IdOferta"
+               class="btn btn-success px-4">
+                Rezervă
+            </a>
+
+        }
+        else
+        {
+            <button type="button" class="btn btn-warning px-4" data-bs-toggle="modal" data-bs-target="#autentificareModal">
+                Rezervă
+            </button>
+        }
+    </div>
+</div>
+
+<div class="modal fade" id="autentificareModal" tabindex="-1" aria-labelledby="authModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header bg-warning">
+                <h5 class="modal-title" id="authModalLabel">Autentificare necesară</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Închide"></button>
+            </div>
+            <div class="modal-body text-center">
+                Pentru a face o rezervare, vă rugăm să vă logați sau să vă înregistrați.
+            </div>
+            <div class="modal-footer justify-content-center">
+                <a href="/Login/Index" class="btn btn-primary">Logare</a>
+                <a href="/Client/Register" class="btn btn-outline-secondary">Înregistrare</a>
+            </div>
+        </div>
+    </div>
+</div>

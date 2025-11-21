@@ -1,0 +1,40 @@
+﻿@model IEnumerable<AgentieTurism.Models.Rezervare>
+
+@{
+    ViewBag.Title = "Rezervările Hotelului";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4 text-center">Rezervările pentru hotelul tău</h2>
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info text-center">Nu există rezervări înregistrate pentru acest hotel.</div>
+    }
+    else
+    {
+        <table class="table table-bordered table-striped">
+            <thead class="table-dark">
+                <tr>
+                    <th>Client</th>
+                    <th>Telefon</th>
+                    <th>Email</th>
+                    <th>Perioadă ofertă</th>
+                    <th>Data rezervării</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var rezervare in Model)
+                {
+                    <tr>
+                        <td>@rezervare.Client.Nume @rezervare.Client.Prenume</td>
+                        <td>@rezervare.Client.NrTelefon</td>
+                        <td>@rezervare.Client.Email</td>
+                        <td>@rezervare.Oferta.DataStart.ToShortDateString() - @rezervare.Oferta.DataFinal.ToShortDateString()</td>
+                        <td>@rezervare.DataRezervare.ToShortDateString()</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>

@@ -1,0 +1,46 @@
+﻿ @model IEnumerable<AgentieTurism.Models.Oferta> 
+
+ @{ 
+     ViewBag.Title = "Pagina Hotel"; 
+ } 
+
+ <div class="container mt-5"> 
+     <h2 class="mb-4">Bine ai venit!</h2> 
+
+     <p>Aici poți adăuga oferte, vedea rezervările făcute și ofertele deja existente pentru hotelul tău.</p> 
+
+     <div class="d-flex gap-3 mb-4"> 
+         <a href="/Oferta/Create" class="btn btn-primary">Adaugă Ofertă</a> 
+         <a href="/Rezervare/ListaHotel" class="btn btn-outline-secondary">Vezi Rezervări</a> 
+     </div> 
+
+     <h4 class="mb-3">Ofertele tale existente:</h4> 
+
+     @if (!Model.Any()) 
+     { 
+         <div class="alert alert-info text-center">Nu ai adăugat încă nicio ofertă.</div> 
+     } 
+     else 
+     { 
+         <table class="table table-bordered table-striped"> 
+             <thead class="table-dark"> 
+                 <tr> 
+                     <th>Descriere</th> 
+                     <th>Perioadă</th> 
+                     <th>Preț</th> 
+                 </tr> 
+             </thead> 
+             <tbody> 
+                 @foreach (var oferta in Model) 
+                 { 
+                     <tr> 
+                         <td>@oferta.Descriere</td> 
+                         <td>@oferta.DataStart.ToShortDateString() - @oferta.DataFinal.ToShortDateString()</td> 
+                         <td>@oferta.Pret lei</td> 
+                     </tr> 
+                 } 
+             </tbody> 
+         </table> 
+     } 
+ </div> 
+

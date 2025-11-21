@@ -1,0 +1,49 @@
+﻿@model AgentieTurism.Models.Oferta
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewBag.Title = "Adaugă Ofertă";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4 text-center">Adaugă Ofertă Nouă</h2>
+
+    <form method="post" asp-action="Create" enctype="multipart/form-data" class="p-4 border rounded shadow-sm bg-light" style="max-width: 600px; margin: auto;">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger mb-3" })
+
+        <div class="mb-3">
+            <label class="form-label">Descriere</label>
+            <textarea asp-for="Descriere" class="form-control" rows="3"></textarea>
+            <span asp-validation-for="Descriere" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Data început</label>
+            <input asp-for="DataStart" type="date" class="form-control" />
+            <span asp-validation-for="DataStart" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Data final</label>
+            <input asp-for="DataFinal" type="date" class="form-control" />
+            <span asp-validation-for="DataFinal" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Preț (lei)</label>
+            <input asp-for="Pret" type="number" step="0.01" class="form-control" />
+            <span asp-validation-for="Pret" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Imagine hotel</label>
+            <input type="file" name="imagine" class="form-control" />
+        </div>
+
+        <button type="submit" class="btn btn-success w-100">Salvează Ofertă</button>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
