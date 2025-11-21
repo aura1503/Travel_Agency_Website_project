@@ -1,0 +1,297 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AgentieTurism.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AgentieTurism.9dgkggjtdf.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\imagini\\0ef67cb3-af04-4c76-8541-a9cd7504f87f.jpg",
+      "PackagePath": "staticwebassets\\imagini\\0ef67cb3-af04-4c76-8541-a9cd7504f87f.jpg"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\imagini\\7009cc88-ef5a-47dc-9239-762ab3431261.jpg",
+      "PackagePath": "staticwebassets\\imagini\\7009cc88-ef5a-47dc-9239-762ab3431261.jpg"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\imagini\\78142ff6-0cd2-4818-b346-b56ef617ec5f.jpg",
+      "PackagePath": "staticwebassets\\imagini\\78142ff6-0cd2-4818-b346-b56ef617ec5f.jpg"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\imagini\\ChatGPT Image May 30, 2025, 10_21_30 PM.png",
+      "PackagePath": "staticwebassets\\imagini\\ChatGPT Image May 30, 2025, 10_21_30 PM.png"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\imagini\\babbcb2f-9ea1-4040-be7d-f90b899ff77e.jpg",
+      "PackagePath": "staticwebassets\\imagini\\babbcb2f-9ea1-4040-be7d-f90b899ff77e.jpg"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\imagini\\camere.jpg",
+      "PackagePath": "staticwebassets\\imagini\\camere.jpg"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\imagini\\hotel_default.jpg",
+      "PackagePath": "staticwebassets\\imagini\\hotel_default.jpg"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Facultate\\Seria A\\An3\\Semestrul2\\PW\\PW_proiect\\AgentieTurism\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AgentieTurism.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AgentieTurism.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.AgentieTurism.props",
+      "PackagePath": "build\\AgentieTurism.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AgentieTurism.props",
+      "PackagePath": "buildMultiTargeting\\AgentieTurism.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.AgentieTurism.props",
+      "PackagePath": "buildTransitive\\AgentieTurism.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
